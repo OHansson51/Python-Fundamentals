@@ -1,20 +1,20 @@
-# CS0 Lab - File IO and Unit testing
+# CS0 Lab - Game and Unit testing
 
 Possible Points: 100
 
-Python lab to explore working with files.
+Python lab to explore working with YAML files.
 
 ## Lab Instructions
 
 1. Open your CS0Lab-... repo in VS Code
-2. Create a lab folder **fileio** inside your CS0Lab-... repository
-3. Inside the lab folder, create three files: file_io.py,  test_file_io.py, and data.in
-  - Copy data.in contents into data.in file.
+2. Create a lab folder **guessing_game** inside your CS0Lab-... repository
+3. Inside the lab folder, create the project folder structre similar to this lab folder.
 4. Type the partial code stub provided and fix all FIXMEs. (80 points)
 5. Follow best programming practices by using proper white spaces, comments, etc.
-6. Unittest all the important functions using pytest. Install pytest if required.
+6. Unittest all the important functions using pytest. Install pyyaml and pytest if required.
 
 ```bash
+$ pip install pyyaml
 $ pytest --version
 $ pip install -U pytest
 $ pytest test_*.py
